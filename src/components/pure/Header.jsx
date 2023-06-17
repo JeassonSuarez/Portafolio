@@ -1,13 +1,15 @@
 import React from "react";
-import Button from "./Button";
+import Navbar from "../containers/Navbar";
 
 import "../../styles/header.css";
+
+import logo  from '../../imagenes/presentacion/logo nombre.png'
 
 const Header = () => {
   return (
     <header className="header">
-      <h1>fdsaf</h1>
-      <Button texto="Contactarme" />
+      <img src={logo} alt="logo" title="logo" className="header-logo"/>
+      <Navbar />
     </header>
   );
 };

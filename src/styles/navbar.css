@@ -1,0 +1,15 @@
+.nav-menu{
+    display: flex;
+}
+
+.menu-ul{
+    display: flex;
+    gap: 20px;
+}
+
+.ul-li-item-menu{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 6px;
+}

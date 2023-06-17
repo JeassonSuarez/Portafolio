@@ -1,6 +1,22 @@
-.header{
-    outline: 1px solid red;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {
+  /* outline: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.header-logo {
+  width: 125px;
+}
+
+@media (max-width: 991px) {
+    .header{
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    
 }

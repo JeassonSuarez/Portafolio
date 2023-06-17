@@ -1,0 +1,12 @@
+.div-select-proyectos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 6px;
+}
+
+.select-proyecto-flecha{
+    width: 16px;
+    filter: contrast(0);
+}

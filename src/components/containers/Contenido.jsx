@@ -1,8 +1,11 @@
 import React from 'react'
+import Presentacion from './Presentacion'
 
 const Contenido = () => {
   return (
-    <div>Contenido</div>
+    <div className='div-Contenido'>
+      <Presentacion />
+    </div>
   )
 }
 
