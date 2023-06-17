@@ -1,5 +1,16 @@
+.div-contenedor-redes-sociales{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: fit-content;
+    margin: auto;
+}
+
 .figure-red-social{
     display: flex;
     align-items: center;
+    width: fit-content;
 }
+
+
 

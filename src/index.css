@@ -13,7 +13,8 @@
 :root {
   --negro: black;
   --oscuro: #2C322C;
-  --amarillotres : #8A7D3B;
+  /* --amarillotres : #8A7D3B; */
+  --amarillotres : #8a7d3b53;
   --amarillodos: #A49840;
   --amarillouno: #F1DB4C;
   --amarillocero: #FBF4CC;
@@ -187,6 +188,8 @@ body {
   cursor: pointer;
   display: flex;
   gap: 6px;
+  width: fit-content;
+  margin: auto;
 }
 
 .ri{
