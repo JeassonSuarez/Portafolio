@@ -3,7 +3,8 @@ import RedSocial from "../pure/RedSocial";
 import logod from "../../imagenes/presentacion/icon 2.svg";
 import RedesSociales from "./RedesSociales";
 import { AiOutlineCloudDownload } from "react-icons/ai";
-import foto from '../../imagenes/presentacion/foto sin fondo.png'
+import foto from "../../imagenes/presentacion/foto sin fondo.png";
+import Spline from "@splinetool/react-spline";
 
 import "../../styles/presentacion.css";
 
@@ -32,7 +33,10 @@ const Presentacion = () => {
         </div>
       </div>
       <div className="presentacion-div-img">
-        <img src={foto} alt="foto" title="foto" className="img-foto"/>
+        <Spline scene="https://prod.spline.design/pm75871op0QH4Oiz/scene.splinecode" className="spline-fondo" />
+        <div className="img-contenedor">
+         <img src={foto} alt="foto" title="foto" className="img-foto"/>
+        </div>
       </div>
     </div>
   );
