@@ -7,9 +7,18 @@
     gap: 20px;
 }
 
+.menu-ul-footer{
+    flex-direction: column;
+    align-items: stretch;
+}
+
 .menu-ul>a{
     display: flex;
     justify-content: center;
+}
+
+.menu-ul-footer>a{
+    justify-content: flex-start;
 }
 
 .ul-li-item-menu{

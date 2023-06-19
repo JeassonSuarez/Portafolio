@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="header">
       <img src={logo} alt="logo" title="logo" className="header-logo"/>
-      <Navbar />
+      <Navbar ubicacion='header' />
     </header>
   );
 };

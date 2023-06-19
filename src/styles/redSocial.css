@@ -1,9 +1,18 @@
+.a-red-social{
+    width: fit-content;
+}
+
 .div-contenedor-redes-sociales{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
+    width: 100%;
+}
+
+.div-contenedor-redes-sociales-footer{
     width: fit-content;
-    margin: auto;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .figure-red-social{

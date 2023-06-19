@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid var(--amarillouno);
+    justify-content: space-between;
+}
+
+.legal-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-logo{
+    width: 125px;
+    object-fit: scale-down;
+}
