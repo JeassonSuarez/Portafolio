@@ -7,7 +7,7 @@ import Proyectos from "./Proyectos";
 const Contenido = () => {
   return (
     <div className="div-Contenido">
-      <div className="seccion" id="presentacion">
+      <div className="seccion" >
         <Presentacion />
       </div>
       <div className="div-sobremi seccion" id="sobre-mi">
