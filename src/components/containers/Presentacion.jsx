@@ -5,6 +5,7 @@ import RedesSociales from "./RedesSociales";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import foto from "../../imagenes/presentacion/foto sin fondo.png";
 import Spline from "@splinetool/react-spline";
+import cv from '../../assets/CV JEASSON SUAREZ.pdf' 
 
 import "../../styles/presentacion.css";
 
@@ -25,10 +26,12 @@ const Presentacion = () => {
               Ingeniero de Sistemas, Desarrollador Frontend
             </span>
           </h2>
-          <button className="btn">
+          <a href={cv} download className="btn">
+          {/* <button className="btn"> */}
             Descargar CV
             <AiOutlineCloudDownload className="ri" />
-          </button>
+          {/* </button> */}
+          </a>
           <RedesSociales />
         </div>
       </div>

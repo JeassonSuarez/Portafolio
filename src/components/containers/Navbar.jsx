@@ -1,8 +1,9 @@
 import React from "react";
 import Select from "../pure/Select";
-import { AiOutlineMessage, AiOutlineHome } from "react-icons/ai";
+import { AiOutlineHome } from "react-icons/ai";
 import { RiFocus3Line } from "react-icons/ri";
 import { GiSkills } from "react-icons/gi";
+import { ImWhatsapp } from 'react-icons/im'
 
 import "../../styles/navbar.css";
 
@@ -31,10 +32,10 @@ const Navbar = ({ ubicacion }) => {
           </li>
         </a>
         <li className="ul-li-item-menu">
-          <button className="btn">
+          <a href="https://wa.me/3013840225" target="_blank" className="btn">
             Contactarme
-            <AiOutlineMessage className="ri" />
-          </button>
+            <ImWhatsapp className="ri" />
+          </a>
         </li>
       </ul>
     </nav>

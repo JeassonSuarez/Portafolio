@@ -2,6 +2,7 @@ import React from "react";
 import foto from "../../imagenes/presentacion/foto sin fondo.png";
 import "../../styles/sobremi.css";
 import { AiOutlineCloudDownload } from "react-icons/ai";
+import cv from '../../assets/CV JEASSON SUAREZ.pdf'
 
 const Sobremi = () => {
   return (
@@ -60,10 +61,10 @@ const Sobremi = () => {
           Siempre estoy buscando formas de mejorar y superar las expectativas en
           cada proyecto en el que participo.
         </p>
-        <button className="btn">
+        <a href={cv} download className="btn">
           Descargar CV
           <AiOutlineCloudDownload className="ri" />
-        </button>
+        </a>
       </div>
       <div className="sobremi-foto">
         <img src={foto} alt="foto" title="foto" className="img-foto" />
