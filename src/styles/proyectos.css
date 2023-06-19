@@ -55,6 +55,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  line-height: 1.1;
 }
 
 .proyecto-contenedor-info {
@@ -84,6 +85,10 @@
 
   .proyecto-contenedor-info {
     padding: 16px;
+  }
+
+  .proyecto-titulo-fondo{
+    font-size: 150px;
   }
 }
 
