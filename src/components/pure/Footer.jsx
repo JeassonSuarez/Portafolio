@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <Navbar ubicacion="footer" />
-      <div class="legal-info">
+      <div className="legal-info">
         <img src={logo} alt="logo" title="logo" className="footer-logo" />
         <p>&copy; 2023 Jeasson Suárez</p>
       </div>
