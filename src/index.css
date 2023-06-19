@@ -11,7 +11,7 @@
 */
 /* Aquí definimos las Custom properties */
 :root {
-  --negro: black;
+  --negro: rgb(27, 27, 27);
   --oscuro: #2C322C;
   --amarillocuatro : #8A7D3B;
   --amarillotres : #8a7d3b53;
