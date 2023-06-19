@@ -1,0 +1,37 @@
+.div-contenedor-tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.div-container-tecnologia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 16px;
+    gap: 16px;
+}
+
+.div-container-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.tecnologias-titulo{
+    font-size: 22px;
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid var(--amarillouno);
+    border-top: 1px solid var(--amarillouno);
+    color: var(--amarillouno);
+}
+
+.img-tec{
+    width: 150px;
+    border-radius: 10px;
+    background-color: var(--amarillotres);
+    padding: 16px;
+}

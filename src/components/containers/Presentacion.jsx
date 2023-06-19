@@ -10,7 +10,7 @@ import "../../styles/presentacion.css";
 
 const Presentacion = () => {
   return (
-    <div className="div-contenedor-presentacion">
+    <div className="div-contenedor-presentacion seccion">
       <div className="presentacion-div-text">
         <div className="text-div-fondo">DEV</div>
         <div className="text-div-texto">
@@ -33,9 +33,15 @@ const Presentacion = () => {
         </div>
       </div>
       <div className="presentacion-div-img">
-        <Spline scene="https://prod.spline.design/pm75871op0QH4Oiz/scene.splinecode" className="spline-fondo" />
+        <Spline
+          scene="https://prod.spline.design/pm75871op0QH4Oiz/scene.splinecode"
+          className="spline-fondo"
+        />
         <div className="img-contenedor">
-         <img src={foto} alt="foto" title="foto" className="img-foto"/>
+          <img src={foto} alt="foto" title="foto" className="img-foto" />
+          <span className="presentacion-span-texto-mediano texto-img-foto">
+            Jeasson Suárez
+          </span>
         </div>
       </div>
     </div>

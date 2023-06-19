@@ -13,7 +13,7 @@
 :root {
   --negro: black;
   --oscuro: #2C322C;
-  /* --amarillotres : #8A7D3B; */
+  --amarillocuatro : #8A7D3B;
   --amarillotres : #8a7d3b53;
   --amarillodos: #A49840;
   --amarillouno: #F1DB4C;
@@ -179,6 +179,7 @@ body {
 
 .App>*{
   width: 100%;
+  padding: 16px 0;
 }
 
 .btn{
@@ -187,6 +188,8 @@ body {
   color: var(--oscuro);
   cursor: pointer;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 6px;
   width: fit-content;
   margin: auto;
@@ -194,6 +197,23 @@ body {
 
 .ri{
   width: fit-content;
+}
+
+.contenido-h2-titulo{
+  font-size: 36px;
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+}
+
+.seccion{
+  /* min-height: 100vh; */
+}
+
+.div-Contenido{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 @media (max-width: 991px) {

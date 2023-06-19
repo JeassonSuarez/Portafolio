@@ -7,6 +7,11 @@
     gap: 20px;
 }
 
+.menu-ul>a{
+    display: flex;
+    justify-content: center;
+}
+
 .ul-li-item-menu{
     display: flex;
     align-items: center;
